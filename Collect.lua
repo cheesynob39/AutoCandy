@@ -92,7 +92,6 @@ end
 
 wait(3)
 
-game.TeleportService:Teleport(game.PlaceId)
 
 
 end

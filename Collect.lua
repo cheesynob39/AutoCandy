@@ -1,6 +1,4 @@
-
---
-if 7< game.Players:GetChildren() then
+if  #game.Players:GetChildren() >7 then
 
 local PlaceID = game.PlaceId
 local AllIDs = {}

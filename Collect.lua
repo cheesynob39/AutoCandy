@@ -105,7 +105,7 @@ wait()
     for i,v in pairs(game.workspace.CandyCorns:GetDescendants()) do 
     if v:IsA('Part') and v:GetChildren() then 
     wait(2.5)
-    game:GetService('TweenService'):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(2, Enum.EasingStyle.Sine, Enum.EasingDirection.Out),{CFrame = v.CFrame}):Play() 
+    game:GetService('TweenService'):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(2, Enum.EasingStyle.getgenv().TweenMode, Enum.EasingDirection.Out),{CFrame = v.CFrame}):Play() 
     
      end 
     end
